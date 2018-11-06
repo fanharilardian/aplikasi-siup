@@ -1,4 +1,4 @@
-package generated;
+package id.go.kemendag.siup.aplikasisiup.dto;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,7 +6,7 @@
 //
 
 
-package generated;
+package id.go.kemendag.siup.aplikasisiup.dto;
 
 import java.math.BigInteger;
 import javax.xml.bind.JAXBElement;

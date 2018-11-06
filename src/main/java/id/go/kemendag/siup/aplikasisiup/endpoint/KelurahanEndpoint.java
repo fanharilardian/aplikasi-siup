@@ -5,10 +5,10 @@
  */
 package id.go.kemendag.siup.aplikasisiup.endpoint;
 
-import id.go.kemendag.webservices.siup.DaftarKelurahan;
-import id.go.kemendag.webservices.siup.DaftarKelurahanRequest;
-import id.go.kemendag.webservices.siup.DaftarKelurahanResponse;
-import id.go.kemendag.webservices.siup.Kelurahan;
+import id.go.kemendag.siup.aplikasisiup.dto.DaftarKelurahan;
+import id.go.kemendag.siup.aplikasisiup.dto.DaftarKelurahanRequest;
+import id.go.kemendag.siup.aplikasisiup.dto.DaftarKelurahanResponse;
+import id.go.kemendag.siup.aplikasisiup.dto.Kelurahan;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;

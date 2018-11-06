@@ -6,7 +6,7 @@
 //
 
 
-package generated;
+package id.go.kemendag.siup.aplikasisiup.dto;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{}pencarian"/>
+ *         &lt;element ref="{}nama"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "pencarian"
+    "nama"
 })
-@XmlRootElement(name = "daftarKelurahanRequest")
-public class DaftarKelurahanRequest {
+@XmlRootElement(name = "pencarian")
+public class Pencarian {
 
     @XmlElement(required = true)
-    protected Pencarian pencarian;
+    protected String nama;
 
     /**
-     * Gets the value of the pencarian property.
+     * Gets the value of the nama property.
      * 
      * @return
      *     possible object is
-     *     {@link Pencarian }
+     *     {@link String }
      *     
      */
-    public Pencarian getPencarian() {
-        return pencarian;
+    public String getNama() {
+        return nama;
     }
 
     /**
-     * Sets the value of the pencarian property.
+     * Sets the value of the nama property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Pencarian }
+     *     {@link String }
      *     
      */
-    public void setPencarian(Pencarian value) {
-        this.pencarian = value;
+    public void setNama(String value) {
+        this.nama = value;
     }
 
 }

@@ -6,7 +6,7 @@
 //
 
 
-package generated;
+package id.go.kemendag.siup.aplikasisiup.dto;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element ref="{}nama"/>
+ *         &lt;element ref="{}daftarKelurahan"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "nama"
+    "daftarKelurahan"
 })
-@XmlRootElement(name = "pencarian")
-public class Pencarian {
+@XmlRootElement(name = "daftarKelurahanResponse")
+public class DaftarKelurahanResponse {
 
     @XmlElement(required = true)
-    protected String nama;
+    protected DaftarKelurahan daftarKelurahan;
 
     /**
-     * Gets the value of the nama property.
+     * Gets the value of the daftarKelurahan property.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link DaftarKelurahan }
      *     
      */
-    public String getNama() {
-        return nama;
+    public DaftarKelurahan getDaftarKelurahan() {
+        return daftarKelurahan;
     }
 
     /**
-     * Sets the value of the nama property.
+     * Sets the value of the daftarKelurahan property.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link DaftarKelurahan }
      *     
      */
-    public void setNama(String value) {
-        this.nama = value;
+    public void setDaftarKelurahan(DaftarKelurahan value) {
+        this.daftarKelurahan = value;
     }
 
 }
